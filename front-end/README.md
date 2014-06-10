@@ -15,7 +15,7 @@ Each lesson will also have an Issue on the Issues page.
 * Info about the lesson and the homework assigment will be posted there. 
 * Feel free to post questions about the lesson or about the homework on the Issue.
 
-If you would like to start a topic of discussion or have a question not related to a lesson, create an issue of your own.
+If you would like to start a topic of discussion or have a question not related to a lesson, create an Issue for it.
 
 ## Homework
 
@@ -23,4 +23,4 @@ Get an account on jsbin: [http://jsbin.com](http://jsbin.com).
 
 Check out the Issue created for the lesson on the Issues page. 
 
-Post your solution on jsbin and shared the link.
+Post your solution on jsbin and share the link.
