@@ -1,0 +1,27 @@
+/*
+  This is a CSS comment
+*/
+
+/* tag selector */
+h1 {
+  color: blue;
+}
+
+img {
+  width: 200px;
+}
+
+/* id selector */
+#special {
+  border-style: dashed;
+  text-transform: uppercase;
+}
+
+/* class selector */
+.sorta-special {
+  background-color: purple;
+}
+
+.very-flexible {
+  opacity: 0.6;
+}
