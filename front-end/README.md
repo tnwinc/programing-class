@@ -19,8 +19,8 @@ If you would like to start a topic of discussion or have a question not related 
 
 ## Lessons
 
-* [Lesson 1 - HTML](../lesson%201%20-%20html)
-* [Lesson 2 - Intro to CSS](../lesson%202%20-%20intro%20to%20css)
+* [Lesson 1 - HTML](lesson%201%20-%20html)
+* [Lesson 2 - Intro to CSS](lesson%202%20-%20intro%20to%20css)
 
 ## Homework
 
