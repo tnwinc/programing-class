@@ -141,17 +141,18 @@ css:
 
 This is a non-exhaustive list just to get you started.
 
-- color
-- background-color
-- font-size
-- border-style
-- border-width
-- border-color
-- text-decoration
-- text-transform
-- display
-- visibility
-- opacity
+* color
+* background-color
+* font-size
+* border-style
+* border-width
+* border-color
+* text-decoration
+* text-transform
+* line-height
+* display
+* visibility
+* opacity
 
 
 Check these out on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) and learn what properties can be applied to them. Take a look at all the others, but don't worry too much about them for now.
