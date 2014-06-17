@@ -6,7 +6,9 @@
 
 ## What is CSS?
 
-**C**ascading **S**tylesheets **S**heets
+**C** ascading
+**S** tylesheets
+**S** heets
 
 * a way to specify styling for HTML elements
 * overrides the default styles of the browser
@@ -159,7 +161,7 @@ Play around with them on jsbin to see what they do and how they differ. Try out 
 
 ## Order matters
 
-Given the same selector, rules farther down in source order take precedence. 
+Given the same selector, rules farther down in source order take precedence.
 
 Given:
 
@@ -214,7 +216,7 @@ div {
 }
 ```
 
-The text in the <p> tag and the <em> tag will be 12px because the style cascades (is inherited) from the div.
+The text in the `<p>` tag and the `<em>` tag will be 12px because the style cascades (is inherited) from the div.
 
 Some rules don't cascade.
 
@@ -226,5 +228,5 @@ div {
 }
 ```
 
-There will be a border around the <div>, but not around the <p> tag or the <em> tag, because borders do not cascade. 
+There will be a border around the `<div>`, but not around the `<p>` tag or the `<em>` tag, because borders do not cascade.
 
