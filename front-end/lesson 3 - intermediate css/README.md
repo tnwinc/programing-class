@@ -259,3 +259,121 @@ You will see a red background color behind the element and its padding area, but
 Things like an element's width, margin, padding, and border make up its box model. It's important to understand the box model in order to be able to lay elements out in CSS.
 
 I'd recommend reading [this MDN article](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model), checking out some other resources online (search for 'css box model'), and playing around with widths, heights, margins, padding, and borders in jsbin to get a good feel for how the box model works.
+
+### Shorthand rules
+
+Most rules with dashes also have a shorthand syntax. For example, you can specify a background like so:
+
+```
+.foo {
+  background-image: url('some-image.png');
+  background-repeat: no-repeat;
+  background-position: 30px 50px;
+}
+```
+
+or you can use the shorthand to accomplish the same thing:
+
+```
+.foo {
+  background: url('some-image.png') no-repeat 30px 50px;
+}
+
+```
+
+Order doesn't necessarily matter in this case, but the values that should be together need to stay together.
+
+This is valid:
+
+```
+.foo {
+  background: 30px 50px url('some-image.png') no-repeat;
+}
+```
+
+but this is not:
+
+```
+.foo {
+  background: 30px url('some-image.png') no-repeat 50px;
+}
+```
+
+because the values for background-position need to stay together.
+
+Some rules have multiple shorthand syntaxes depending on how many values you give it:
+
+```
+.foo {
+  margin: 10px;
+}
+```
+
+is shorthand for:
+
+```
+.foo {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+```
+
+```
+.foo {
+  margin: 10px 20px;
+}
+```
+
+is shorthand for:
+
+```
+.foo {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+```
+
+``
+.foo {
+  margin: 10px 20px 30px;
+}
+```
+
+is shorthand for:
+
+```
+.foo {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+```
+
+``
+.foo {
+  margin: 10px 20px 30px 40px;
+}
+```
+
+is shorthand for:
+
+```
+.foo {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+```
+
+The basic rules are:
+
+| 10px | all |
+| 10px 20px | vertical horizontal |
+| 10px 20px 30px | top horizontal bottom |
+| 10px 20px 40px 50px | top right bottom left |
