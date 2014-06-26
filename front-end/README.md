@@ -21,6 +21,7 @@ If you would like to start a topic of discussion or have a question not related 
 
 * [Lesson 1 - HTML](lesson%201%20-%20html)
 * [Lesson 2 - Intro to CSS](lesson%202%20-%20intro%20to%20css)
+* [Lesson 3 - Intermediate CSS](lesson%203%20-%20intermediate%20css)
 
 ## Homework
 
