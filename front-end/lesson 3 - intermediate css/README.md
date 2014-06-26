@@ -381,6 +381,8 @@ is shorthand for:
 
 The basic rules are:
 
+| values | applied to |
+| ------ | ---------- |
 | 10px | all |
 | 10px 20px | vertical horizontal |
 | 10px 20px 30px | top horizontal bottom |
