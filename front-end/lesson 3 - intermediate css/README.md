@@ -82,6 +82,7 @@ or like this:
   </div>
 </div>
 ```
+
 ### universal
 
 The universal selector is a special selector that selects all elements in the given scope.
@@ -112,6 +113,7 @@ Pseudo-selectors don't select elements, but target an element when it's in a par
 a:hover {
   color: lightblue;
 }
+```
 
 will make a tags blue when you hover over them.
 
