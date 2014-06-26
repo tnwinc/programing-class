@@ -343,7 +343,7 @@ is shorthand for:
 
 With 3 values:
 
-``
+```
 .foo {
   margin: 10px 20px 30px;
 }
