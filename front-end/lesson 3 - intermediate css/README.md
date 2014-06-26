@@ -9,7 +9,7 @@ CSS only has multi-line comments:
   this is a comment
 */
 
-/* you can comment out code, and the rules will no be applied */
+/* you can comment out code, and the rules will not be applied */
 
 /*
 .foo {
@@ -20,7 +20,7 @@ CSS only has multi-line comments:
 
 ## Reset / Normalize
 
-Browser implement default styles for elements differently. An H1 in Chrome might be a different font-size than in Firefox and the margin around a p tag might different between Safari and IE. Instead of fighting with these differences throughout your CSS, it's best to use a strategy that resets or normalizes the styles across browsers at the beginning of your styles.
+Browsers implement default styles for elements differently. An H1 in Chrome might be a different font-size than in Firefox and the margin around a p tag might differ between Safari and IE. Instead of fighting with these differences throughout your CSS, it's best to use a strategy that resets or normalizes the styles across browsers at the beginning of your styles.
 
 ### Reset
 
@@ -72,7 +72,7 @@ or like this:
 ```
 <div class="foo">
   <div>
-    <div> 
+    <div>
       <ul>
         <li>Item</li>
         <li>Item</li>
@@ -129,7 +129,7 @@ li:first-child {
 }
 ```
 
-will select only the li only if it is the first descendant nested inside of its parent element.
+will select the li only if it is the first descendant nested inside of its parent element.
 
 There are many different pseudo-selectors. [This reference on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) has a list of them.
 
@@ -193,7 +193,7 @@ The percentage is relative to the width or height of the element's parent. If th
 ```
 
 .foo will be 50% of its parents width, but won't go smaller than 100px wide.
-			
+
 
 ### margin
 
