@@ -303,6 +303,8 @@ because the values for background-position need to stay together.
 
 Some rules have multiple shorthand syntaxes depending on how many values you give it:
 
+With 1 value:
+
 ```
 .foo {
   margin: 10px;
@@ -319,6 +321,8 @@ is shorthand for:
   margin-left: 10px;
 }
 ```
+
+With 2 values:
 
 ```
 .foo {
@@ -337,6 +341,8 @@ is shorthand for:
 }
 ```
 
+With 3 values:
+
 ``
 .foo {
   margin: 10px 20px 30px;
@@ -354,7 +360,9 @@ is shorthand for:
 }
 ```
 
-``
+With 4 values:
+
+```
 .foo {
   margin: 10px 20px 30px 40px;
 }
