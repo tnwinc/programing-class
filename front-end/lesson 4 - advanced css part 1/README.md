@@ -34,6 +34,8 @@ When you specify a font, whether it shows up or not depends on whether a user ha
 }
 ```
 
+It's also possible to use custom fonts that you or a font service provide. I'll leave you to research them as extra credit if you're interested.
+
 ### font-size and ems
 
 Fonts can be specified in units other than pixels (`px`). `em` is a more relative unit of measure. It changes based on the base font size (specified by the user in their settings or by the nearest ancestor of an element that has a font-size specified) and by the font-family.
@@ -57,7 +59,7 @@ rgb and hsl also have varieties where you can specify their alpha value (opacity
 ```css
 rgba(0, 0, 0, 0.5) /* black at 50% opacity */
 
-hsla(120, 100%, 50%, 0.75) / * green at 75% opacity */
+hsla(120, 100%, 50%, 0.75) /* green at 75% opacity */
 ```
 
 ## Positioning
