@@ -28,4 +28,4 @@ Here's a [good article](http://designshack.net/articles/css/whats-the-deal-with-
 
 [This article](http://www.smashingmagazine.com/2009/04/27/the-mystery-of-css-sprites-techniques-tools-and-tutorials/) does a good job of explaining CSS sprites and links to a bunch of other articles and resources about them.
 
-Here's the [jsbin I wrote up](http://jsbin.com/nuquva/1/edit?html,css,output) in class to demonstrate image sprites.
+Here's the [jsbin I wrote up](http://jsbin.com/nuquva/2/edit?html,css,output) in class to demonstrate image sprites.
